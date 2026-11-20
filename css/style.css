@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --brand: #d64284;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  background-color: #fdf2f8;
+  color: #1f2937;
+}
+
+header {
+  background: var(--brand);
+  color: whitesmoke;
+  padding: 1.2rem 2rem;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem 2rem;
+  background: #4a4949;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.2s;
+}
+
+nav a:hover {
+  color: #fbcfe8;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+
+section {
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 1.2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgb(0 0 0 / 10%);
+}
+
+h2 {
+  color: var(--brand);
+  margin-top: 0;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border: 4px solid var(--brand);
+}
+
+button {
+  background: var(--brand);
+  color: white;
+  border: none;
+  padding: 0.45rem 1rem;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #be185d;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #64748b;
+}
+
+@media (min-width: 768px) {
+  #skills ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+}

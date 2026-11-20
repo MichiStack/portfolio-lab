@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Michelle | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1>Michelle</h1>
+    <p>Aspiring web developer</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#todo">To-do</a>
+  </nav>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="images/avatar.jpg" alt="Profile avatar" width="150">
+      <p>Hi! I am a software engineering student learning HTML, CSS, and JavaScript.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>C++ Programming</li>
+        <li>Front-End Web Development (HTML)</li>
+        <li>Technical Documentation</li>
+      </ul>
+    </section>
+
+    <section id="todo">
+      <h2>My study to-do list</h2>
+      <form id="todo-form">
+        <label for="task">New task</label>
+        <input id="task" type="text" required>
+        <button type="submit">Add</button>
+      </form>
+      <ul id="todo-list"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p><a href="mailto:michelle@example.com">Email me</a></p>
+  </footer>
+</body>
+</html>
